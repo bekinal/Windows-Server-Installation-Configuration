@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 Project consists of utilizing VirtualBox to configure a copy both Windows Server 2016 GUI (Server 1) and Standard Evaluation (Server 2) following installation.
-Server 2 is then added to the domain created on Server 1
+Server 2 then enters the domain created on Server 1.
 <br />
 
 
