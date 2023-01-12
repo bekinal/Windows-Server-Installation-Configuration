@@ -14,37 +14,46 @@ Project consists of utilizing VirtualBox to configure a copy both Windows Server
 
 - <b>Windows Server 2016</b>
 
-<h2>Program walk-through:</h2>
+<h2>Windows Server 2016 (GUI):</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://imgur.com/a/8X2eycc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Open the Server Manager Dashboard and select "Manage", "Add Roles and Features". 
+ Click next until you reach the "Select server roles" tab.: <br/>
+<img src="https://i.imgur.com/g0YrjO1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Select "Active Directory Domain Service" and click "Add Features":  <br/>
+<img src="https://i.imgur.com/w35sWrV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Continue through - Click "Install": <br/>
+<img src="https://i.imgur.com/g3ShiHN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Return to dashboard and click the flag. Select "Promote this server to a domain controller":  <br/>
+<img src="https://i.imgur.com/1O8KPgf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Enter "cyber.local" in root domain name and click next. Include a password for the CYBER\administrator account:  <br/>
+<img src="https://i.imgur.com/qVdQuyB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Proceed next and then install:  <br/>
+<img src="https://i.imgur.com/DkJ4Yvs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+System will restart. Log in with the CYBER\administrator credentials:  <br/>
+<img src="https://i.imgur.com/WNcPbr7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<h2>Windows Server 2016 (Standard Evalutation):</h2>
+Type "sconfig" to enter the configuration options: <br/>
+<img src="https://i.imgur.com/y4j5940.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Select option 1 to enter into a Domain with the letter D. Enter the Domain name "cyber.local", then the authorized domain user, cyber\administrator:  <br/>
+<img src="https://i.imgur.com/vAZ0ewM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+Type in the password for the administrator. When typing the password, notice that nothing will populate the screen. Hit enter, and select No when prompted to name change. Restart the machine:  <br/>
+<img src="https://i.imgur.com/80KLDOr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <!--
  ```diff
 - text in red
