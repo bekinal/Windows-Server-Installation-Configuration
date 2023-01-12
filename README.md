@@ -1,7 +1,7 @@
 <h1>Windows Server 2016 Configuration</h1>
 
 <h2>Description</h2>
-Project consists of adding the Active Directory Domain Services feature to Windows Server 2016. A seperate server (Standard Evaluation) is then added to the domain. 
+Project consists of adding the Active Directory Domain Services feature to Windows Server 2016. A seperate server (Standard Evaluation) is then added to its domain. 
 <br />
 
 
