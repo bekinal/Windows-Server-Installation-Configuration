@@ -1,8 +1,7 @@
 <h1>Windows Server 2016 Configuration</h1>
 
 <h2>Description</h2>
-Project consists of utilizing VirtualBox to configure a copy both Windows Server 2016 GUI (Server 1) and Standard Evaluation (Server 2) following installation.
-Server 2 then enters the domain created on Server 1.
+Project consists of adding the Active Directory Domain Services feature to Windows Server 2016. A seperate server (Standard Evaluation) is then added to the domain. 
 <br />
 
 
@@ -18,7 +17,7 @@ Server 2 then enters the domain created on Server 1.
 <h2>Windows Server 2016 (GUI):</h2>
 
  Open the Server Manager Dashboard and select "Manage", "Add Roles and Features". 
- Click next until you reach the "Select server roles" tab.: <br/>
+ Click next until you reach the "Select server roles" tab: <br/>
 <img src="https://i.imgur.com/g0YrjO1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
