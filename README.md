@@ -1,7 +1,8 @@
-<h1>Windows Server Configuration</h1>
+<h1>Windows Server 2016 Configuration</h1>
 
 <h2>Description</h2>
-Project consists of utilizing VirtualBox to configure a copy both Windows Server 2016 (GUI) and Standard Evaluation following installation.
+Project consists of utilizing VirtualBox to configure a copy both Windows Server 2016 GUI (Server 1) and Standard Evaluation (Server 2) following installation.
+Server 2 is then added to the domain created on Server 1
 <br />
 
 
